@@ -13,7 +13,15 @@ export default class About extends Component {
                     <div className="about-desc">
                     <span className="heading-meta">About Me</span>
                     <h2 className="colorlib-heading">Who Am I?</h2>
-                    <p>I am Aviral Verma, a final year undergraduate at Indian Institute of Technology Kanpur. I'm passionate about coding the Web. I have got pretty decent experience in Web Development through Internships, an Under Graduate Project and various self projects worth checking out.</p><p>I love writing at Quora where I have managed to build a decently large audience of 7k+ followers. I have recently started blogging on Medium too where I wish to keep posting technical blogs.</p><br />
+                    <p>Hi, I'm Aviral, an IIT Kanpur graduate passionate about web technologies, development and cloud. I'm currently working as a Cloud Administrator at Bajaj Finserv. I maintain a blog on Quora where I have <b>7.4K+</b> followers, <b>2M+</b> views and <b>80K+</b> upvotes on my content so far.</p>
+
+<br/>
+<p>I’ve experience working with Full Stack Web Development technologies such as <b>HTML, CSS, JavaScript, Angular, React, Node.js, Express.js, NgRx, MySQL, Shopify, Docker, Kubernetes</b>, etc. During my free time, I focus on learning and up-skilling myself in various domains</p>
+<br></br>
+<p>I'm fascinated with Entreprenurship, Digital Marketing, and Product Management and keep learning about the same.
+
+If you wish to reach out to me, you can connect with me on LinkedIn or Instagram.
+</p>
                     </div>
                 </div>
                 </div>
@@ -26,18 +34,29 @@ export default class About extends Component {
             <div className="row">
             <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
                 <span className="heading-meta">What I do?</span>
-                <h2 className="colorlib-heading">Here are some of my expertise</h2>
+                <h2 className="colorlib-heading">Here are some of my interests</h2>
             </div>
             </div>
             <div className="row row-pt-md">
+            <div className="col-md-4 text-center animate-box">
+                <div className="services color-3">
+                <span className="icon">
+                    <i className="icon-brush" />
+                </span>
+                <div className="desc">
+                    <h3>Building a Community on LinkedIn</h3>
+                    <p>I share articles, posts, and stories on LinkedIn to build a positive community on LinkedIn that can constantly grow together.</p>
+                </div>
+                </div>
+            </div>
             <div className="col-md-4 text-center animate-box">
                 <div className="services color-1">
                 <span className="icon">
                     <i className="icon-code" />
                 </span>
                 <div className="desc">
-                    <h3>Web Development </h3>
-                    <p>I have experience building websites using Angular, React, JavaScript, PHP, HTML,CSS</p>
+                    <h3>Web Development & Cloud Computing </h3>
+                    <p>I've experience in building, deploying and managing web applications using technologies such as Angular, Node.js, NgRx, MySQL, Docker, Kubernetes</p>
                 </div>
                 </div>
             </div>
@@ -49,18 +68,7 @@ export default class About extends Component {
                 </span>
                 <div className="desc">
                     <h3>Writing</h3>
-                    <p>I love writing on <a target="_blank" href="https://www.quora.com/profile/Aviral-Verma-8">Quora</a> where I have 7k+ followers, 1.8 million+ views, 80k+ upvotes so far...</p>
-                </div>
-                </div>
-            </div>
-            <div className="col-md-4 text-center animate-box">
-                <div className="services color-3">
-                <span className="icon">
-                    <i className="icon-brush" />
-                </span>
-                <div className="desc">
-                    <h3>Logo Designing</h3>
-                    <p>I have some experience in designing logos which I pursue as a hobby.</p>
+                    <p>I love maintaining a blog on <a target="_blank" href="https://www.quora.com/profile/Aviral-Verma-8">Quora</a> as well as <a target="_blank" href="https://medium.com/@aviralverma">Medium</a>. I write about my knowledge, experiences and perspectives.</p>
                 </div>
                 </div>
             </div>

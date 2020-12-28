@@ -14,7 +14,7 @@ export default class Introduction extends Component {
                     <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
                       <div className="slider-text-inner js-fullheight">
                         <div className="desc">
-                          <h1>Hi<span  style={{color: 'red'}}>. </span><br />I'm <br />Aviral</h1>
+                          <h1>Hi<span  style={{color: 'red'}}>. </span><br />I am <br />Aviral</h1>
                           <p><a className="btn btn-primary btn-learn" href="https://aviral-verma.github.io/personal-website/" target="_blank">View My Projects <i className="icon-briefcase3" /></a></p>
                           {/* <p><a className="btn btn-primary btn-learn" href="" target="_blank">View CV<i className="icon-download4" /></a></p> */}
                         </div>
@@ -46,7 +46,7 @@ export default class Introduction extends Component {
                       <div className="slider-text-inner">
                         <div className="desc">
                           <h1>I often <br/>Write <span  style={{color: 'red'}}>...</span> </h1>
-                          <p><a className="btn btn-primary btn-learn" href="https://medium.com/aviral-verma" target="_blank">View Blog <i className="icon-book" /></a></p>
+                          <p><a className="btn btn-primary btn-learn" href="https://aviralverma.medium.com/" target="_blank">View Blog <i className="icon-book" /></a></p>
                         </div>
                       </div>
                     </div>
