@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aviral Verma</title>
+  <meta name="description" content="Working on how AI enhances the decision layer — not just execution. Building WhiteboardX and writing The AI-Enabled PM.">
+  <meta property="og:title" content="Aviral Verma">
+  <meta property="og:description" content="Working on how AI enhances the decision layer — not just execution.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://aviralverma.com">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap">
+  <style>
+    :root {
+      --bg: #FAFAF7;
+      --text: #111111;
+      --muted: #6B6B66;
+      --hair: #E8E5DC;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0E0E0C;
+        --text: #F2F0EA;
+        --muted: #8A867E;
+        --hair: #23211D;
+      }
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      font-size: 15px;
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      min-height: 100svh;
+      display: grid;
+      place-items: center;
+      padding: 48px 24px;
+    }
+    main {
+      width: 100%;
+      max-width: 560px;
+    }
+    h1 {
+      font-size: 22px;
+      font-weight: 500;
+      letter-spacing: -0.01em;
+      margin: 0 0 20px;
+    }
+    .bio {
+      margin: 0 0 4px;
+    }
+    .credentials {
+      color: var(--muted);
+      margin: 0 0 56px;
+    }
+    .section-label {
+      color: var(--muted);
+      font-size: 13px;
+      letter-spacing: 0.02em;
+      margin: 0 0 20px;
+    }
+    .projects {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 64px;
+    }
+    .project { margin-bottom: 24px; }
+    .project:last-child { margin-bottom: 0; }
+    .project a {
+      color: inherit;
+      text-decoration: none;
+      display: block;
+    }
+    .project-name {
+      font-weight: 500;
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+    }
+    .arrow {
+      display: inline-block;
+      transition: transform 220ms ease;
+      color: var(--muted);
+    }
+    .project a:hover .arrow {
+      transform: translate(2px, -2px);
+      color: var(--text);
+    }
+    .project a:hover .project-title {
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+    .project-desc {
+      color: var(--muted);
+      margin: 4px 0 0 24px;
+      font-size: 14px;
+    }
+    footer {
+      color: var(--muted);
+      font-size: 14px;
+    }
+    footer a {
+      color: inherit;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      color: var(--text);
+    }
+    .sep {
+      margin: 0 8px;
+      user-select: none;
+    }
+    @media (max-width: 480px) {
+      body { padding: 32px 20px; align-items: start; }
+      .credentials { margin-bottom: 40px; }
+      .projects { margin-bottom: 48px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Aviral Verma</h1>
+    <p class="bio">Working on how AI enhances the decision layer — not just execution.</p>
+    <p class="credentials">IIT Kanpur · IIM Bangalore · 0→1 AI at Aurigo</p>
+
+    <p class="section-label">Building</p>
+    <ul class="projects">
+      <li class="project">
+        <a href="https://www.whiteboardx.co" target="_blank" rel="noopener">
+          <span class="project-name"><span class="arrow">↗</span><span class="project-title">WhiteboardX</span></span>
+          <p class="project-desc">An AI-native thinking canvas for product teams to work through decisions before they're executed.</p>
+        </a>
+      </li>
+      <li class="project">
+        <a href="https://www.aienabledpm.com" target="_blank" rel="noopener">
+          <span class="project-name"><span class="arrow">↗</span><span class="project-title">The AI-Enabled PM</span></span>
+          <p class="project-desc">A newsletter for PMs turning cutting-edge AI into shippable features.</p>
+        </a>
+      </li>
+    </ul>
+
+    <footer>
+      <a href="mailto:aviralverma.verma@gmail.com">email</a><span class="sep">·</span><a href="https://www.linkedin.com/in/aviraliitk/" target="_blank" rel="noopener">linkedin</a><span class="sep">·</span><a href="https://x.com/itsaviralverma" target="_blank" rel="noopener">x</a><span class="sep">·</span><a href="https://github.com/aviral-verma" target="_blank" rel="noopener">github</a>
+    </footer>
+  </main>
+</body>
+</html>
