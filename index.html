@@ -41,8 +41,9 @@
       -moz-osx-font-smoothing: grayscale;
       min-height: 100svh;
       display: grid;
-      place-items: center;
-      padding: 56px 24px;
+      align-items: center;
+      justify-items: start;
+      padding: 56px clamp(32px, 12vw, 200px);
     }
     main {
       width: 100%;
@@ -122,6 +123,22 @@
       line-height: 1.5;
       text-wrap: pretty;
     }
+    .work {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: grid;
+      grid-template-columns: 1fr 1.4fr auto;
+      column-gap: 24px;
+      row-gap: 14px;
+      align-items: baseline;
+      font-size: 14px;
+    }
+    .work-row { display: contents; }
+    .work-co { font-weight: 500; }
+    .work-role,
+    .work-year { color: var(--muted); }
+    .work-year { text-align: right; font-variant-numeric: tabular-nums; }
     footer {
       color: var(--muted);
       font-size: 13px;
@@ -150,6 +167,17 @@
       .rule { margin: 28px 0 22px; }
       .sep { margin: 0 8px; }
       footer { font-size: 12.5px; letter-spacing: 0.02em; }
+      .work { display: block; }
+      .work-row {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        grid-template-areas: "co year" "role role";
+        gap: 2px 16px;
+        padding: 9px 0;
+      }
+      .work-co { grid-area: co; }
+      .work-role { grid-area: role; }
+      .work-year { grid-area: year; }
     }
     @media (max-width: 360px) {
       body { padding: 56px 18px; }
@@ -189,6 +217,27 @@
           </span>
           <p class="project-desc">A newsletter for PMs turning cutting-edge AI into shippable features.</p>
         </a>
+      </li>
+    </ul>
+
+    <hr class="rule">
+
+    <p class="label">Work</p>
+    <ul class="work">
+      <li class="work-row">
+        <span class="work-co">Aurigo</span>
+        <span class="work-role">AI Product Manager</span>
+        <span class="work-year">2025—now</span>
+      </li>
+      <li class="work-row">
+        <span class="work-co">Scapia</span>
+        <span class="work-role">Product Management Intern</span>
+        <span class="work-year">2024</span>
+      </li>
+      <li class="work-row">
+        <span class="work-co">Bajaj Finserv</span>
+        <span class="work-role">Senior Manager · Cloud</span>
+        <span class="work-year">2020—23</span>
       </li>
     </ul>
 
